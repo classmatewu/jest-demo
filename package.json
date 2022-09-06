@@ -1,0 +1,26 @@
+{
+  "name": "jest-demo",
+  "version": "1.0.0",
+  "description": "jest ues demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classmatewu/jest-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/classmatewu/jest-demo/issues"
+  },
+  "homepage": "https://github.com/classmatewu/jest-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "babel-jest": "^29.0.2",
+    "jest": "^29.0.2"
+  }
+}
