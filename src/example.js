@@ -41,9 +41,17 @@ const runFn = fn => {
   fn('fn runned')
 }
 
+const getConfig = () => {
+  return {
+    port: 8080,
+    url: 'http://localhost:3000',
+  }
+}
+
 export {
   multiply,
   fetchData,
   axiosData,
   runFn,
+  getConfig,
 }
