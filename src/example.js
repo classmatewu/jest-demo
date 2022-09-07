@@ -37,8 +37,13 @@ const axiosData = () => {
   return axios.get("https://opendata.baidu.com/api.php?query=0.0.0.0&co=&resource_id=6006&oe=utf8")
 }
 
+const runFn = fn => {
+  fn('fn runned')
+}
+
 export {
   multiply,
   fetchData,
-  axiosData
+  axiosData,
+  runFn,
 }
