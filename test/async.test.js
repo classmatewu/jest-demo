@@ -1,3 +1,7 @@
+/**
+ * 可用于测试 API
+ */
+
 import { fetchData } from '../src/example'
 
 test('测试 async await', async () => {

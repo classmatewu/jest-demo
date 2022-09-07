@@ -1,5 +1,5 @@
 const https = require('https')
-
+const axios = require('axios')
 
 const multiply = (a, b) => {
   return a * b
@@ -33,7 +33,12 @@ const fetchData = () => {
   })
 }
 
+const axiosData = () => {
+  return axios.get("https://opendata.baidu.com/api.php?query=0.0.0.0&co=&resource_id=6006&oe=utf8")
+}
+
 export {
   multiply,
-  fetchData
+  fetchData,
+  axiosData
 }
