@@ -48,10 +48,19 @@ const getConfig = () => {
   }
 }
 
+const timer = (callback) => {
+  console.log('Ready...')
+  setTimeout(() => {
+    console.log("Time's up!")
+    callback && callback()
+  }, 3000)
+}
+
 export {
   multiply,
   fetchData,
   axiosData,
   runFn,
   getConfig,
+  timer,
 }
