@@ -1,5 +1,5 @@
 # jest-demo
-jest ues demo
+jest use demo
 
 ### start
 ```script
