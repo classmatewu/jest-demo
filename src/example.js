@@ -18,6 +18,7 @@ const fetchData = () => {
     const req = https.request(url, res => {
       console.log(`状态码: ${res.statusCode}`)
     
+      // Uncoverd Fncus，pnpm coverage 查看终端或者浏览器打开 /coverage/lcov-report/index.html 可查看结果
       res.on('data', d => {
         process.stdout.write(d)
         resolve(JSON.parse(d.toString()))
@@ -56,6 +57,15 @@ const timer = (callback) => {
   }, 3000)
 }
 
+// Uncoverd Fncus，pnpm coverage 查看终端或者浏览器打开 /coverage/lcov-report/index.html 可查看结果
+const coverageTest = () => {
+  console.log(1);
+  const fn = () => {
+    console.log(2);
+  }
+  fn()
+}
+
 export {
   multiply,
   fetchData,
@@ -63,4 +73,5 @@ export {
   runFn,
   getConfig,
   timer,
+  coverageTest,
 }

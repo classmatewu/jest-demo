@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1662616298286" clover="3.2.0">
+  <project timestamp="1662616298286" name="All files">
+    <metrics statements="32" coveredstatements="26" conditionals="2" coveredconditionals="2" methods="13" coveredmethods="10" elements="47" coveredelements="38" complexity="0" loc="32" ncloc="32" packages="1" files="1" classes="1"/>
+    <file name="example.js" path="/Users/zelinwu/personal/Toys/jest-demo/src/example.js">
+      <metrics statements="32" coveredstatements="26" conditionals="2" coveredconditionals="2" methods="13" coveredmethods="10"/>
+      <line num="1" count="4" type="stmt"/>
+      <line num="2" count="4" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="8" count="4" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="18" count="2" type="stmt"/>
+      <line num="19" count="2" type="stmt"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="27" count="2" type="stmt"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
+      <line num="36" count="4" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="40" count="4" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="44" count="4" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="51" count="4" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
+      <line num="53" count="1" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="55" count="1" type="cond" truecount="2" falsecount="0"/>
+      <line num="59" count="4" type="stmt"/>
+      <line num="60" count="0" type="stmt"/>
+      <line num="61" count="0" type="stmt"/>
+      <line num="62" count="0" type="stmt"/>
+      <line num="64" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
